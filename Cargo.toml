@@ -6,3 +6,5 @@ edition = "2021"
 [dependencies]
 bevy = "0.14.2"
 
+[dev-dependencies]
+bevy_rapier2d = { version = "0.27", features = ["debug-render-2d"] }
